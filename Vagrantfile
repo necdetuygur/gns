@@ -1,4 +1,4 @@
-NAME = 'gs'
+NAME = 'gns'
 IP = "192.168.1.65"
 
 Vagrant.configure("2") do |config|
