@@ -9,7 +9,6 @@ Vagrant.configure("2") do |config|
 
   config.vm.provider "virtualbox" do |vb|
     vb.customize ["modifyvm", :id, "--memory", '512']
-    vb.customize ["modifyvm", :id, "--uartmode1", "file", File::NULL]
   end
   # config.vm.provision :shell, path: "script.sh", run: 'always'
 end
