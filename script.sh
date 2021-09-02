@@ -1,5 +1,3 @@
-cd /vagrant/data
-
 # GO
 # rm -rf /usr/bin/go
 wget https://dl.google.com/go/go1.15.6.linux-amd64.tar.gz
